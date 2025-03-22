@@ -94,4 +94,3 @@ def main(input_filename="testcase.txt", output_filename="output.txt"):
 
 if __name__ == "__main__":
     main()
-    
