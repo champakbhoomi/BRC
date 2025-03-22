@@ -7,7 +7,6 @@ def round_up(value):
 
 def process_file_chunk(filename, start_offset, end_offset):
     city_data = {}
-    
     with open(filename, "rb") as file:
         with mmap.mmap(file.fileno(), 0, access=mmap.ACCESS_READ) as memory_map:
             file_size = len(memory_map)
